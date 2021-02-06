@@ -1,7 +1,8 @@
 <?php
 
-/********* Processa 'DELETE' (Apaga Regitro) ******** */
+/********* Processa 'DELETE' (Apaga Registro) ******** */
 
+// Obtém o ID do registro a ser apagado
 $parts = $_SERVER['REQUEST_URI'];
 $part = explode('/', $parts);
 $id = intval($part[2]);
